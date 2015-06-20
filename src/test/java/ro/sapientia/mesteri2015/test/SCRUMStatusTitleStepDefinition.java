@@ -23,14 +23,14 @@ public class SCRUMStatusTitleStepDefinition {
 		driver = new FirefoxDriver();
 	}
 
-	@Given("^I open the scrum tool add page$")
-	public void I_open_the_scrum_tool_add_page() throws Throwable {
+	@Given("^I open the current scrum tool add page$")
+	public void I_open_the_current_scrum_tool_add_page() throws Throwable {
 		// Set implicit wait of 10 seconds and launch google
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.get("http://localhost:8080/");
 	}
 
-	@When("^I enter \"([^\"]*)\" in  the title textbox and I push the add button$")
+	@When("^I enter \"([^\"]*)\" in  the status title textbox and I push the add button$")
 	public void I_enter_in_the_title_textbox_and_I_push_the_add_button(
 			String additionTerms) throws Throwable {
 		WebElement addButton = driver.findElement(By.id("add-button"));

@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: ro.sapientia.mesteri2015.SCRUMTitleTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.112 sec <<< FAILURE!
-initializationError(ro.sapientia.mesteri2015.SCRUMTitleTest)  Time elapsed: 0.002 sec  <<< ERROR!
-cucumber.runtime.DuplicateStepDefinitionException: Duplicate step definitions in ro.sapientia.mesteri2015.test.SCRUMStatusUpdateStepDefinition.I_enter_in_the_title_textbox_and_I_push_the_update_button(String) in file:/E:/git/sapi02/target/test-classes/ and ro.sapientia.mesteri2015.test.SCRUMSprintUpdateStepDefinition.I_enter_in_the_title_textbox_and_I_push_the_update_button(String) in file:/E:/git/sapi02/target/test-classes/
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.048 sec <<< FAILURE!
+initializationError(ro.sapientia.mesteri2015.SCRUMTitleTest)  Time elapsed: 0.003 sec  <<< ERROR!
+cucumber.runtime.DuplicateStepDefinitionException: Duplicate step definitions in ro.sapientia.mesteri2015.test.SCRUMStatusTitleStepDefinition.I_open_the_scrum_tool_add_page() in file:/C:/Users/T%c3%bcnde/git1/sapi_02_tt/target/test-classes/ and ro.sapientia.mesteri2015.test.SCRUMTitleStepDefinition.I_open_the_scrum_tool_add_page() in file:/C:/Users/T%c3%bcnde/git1/sapi_02_tt/target/test-classes/
 	at cucumber.runtime.RuntimeGlue.addStepDefinition(RuntimeGlue.java:47)
 	at cucumber.runtime.java.JavaBackend.addStepDefinition(JavaBackend.java:92)
 	at cucumber.runtime.java.ClasspathMethodScanner.scan(ClasspathMethodScanner.java:68)

@@ -31,8 +31,8 @@ public class SCRUMStatusUpdateStepDefinition {
 		driver.get("http://localhost:8080/");
 	}
 
-	@When("^I enter \"([^\"]*)\" in  the title textbox and I push the update button$")
-	public void I_enter_in_the_title_textbox_and_I_push_the_update_button(String updateTitle) throws Throwable {
+	@When("^I enter \"([^\"]*)\" in  the status title textbox and I push the update button$")
+	public void I_enter_in_the_status_title_textbox_and_I_push_the_update_button(String updateTitle) throws Throwable {
 	    // Express the Regexp above with the code you wish you had
 		WebElement addButton = driver.findElement(By.id("status-1"));
 		addButton.click();

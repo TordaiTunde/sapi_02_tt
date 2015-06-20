@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="ro.sapientia.mesteri2015.SCRUMStatusTitleTest" time="0.014" errors="1" skipped="0">
+<testsuite tests="1" failures="0" name="ro.sapientia.mesteri2015.SCRUMStatusTitleTest" time="0.023" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_45\bin"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="E:\git\sapi02"/>
+    <property name="user.dir" value="C:\Users\Tünde\git1\sapi_02_tt"/>
     <property name="java.runtime.version" value="1.8.0_45-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_45\lib\endorsed"/>
@@ -27,9 +27,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="E:\mavenWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6071083572484192956.tmp"/>
+    <property name="classworlds.conf" value="E:\mavenWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3823969159452343985.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1250"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_45/bin/server;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_45\bin;C:\Users\Tünde\Documents\apache-maven-3.3.3\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\Users\Tünde\Documents\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_45/bin/server;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_45\bin;C:\Users\Tünde\Documents\apache-maven-3.3.3\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Git\cmd;C:\Users\Tünde\Documents\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -55,7 +55,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_45\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_45\lib\resources.jar;C:\Program Files\Java\jre1.8.0_45\lib\rt.jar;C:\Program Files\Java\jre1.8.0_45\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_45\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_45\lib\jce.jar;C:\Program Files\Java\jre1.8.0_45\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_45\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_45\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="E:\git\sapi02\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\Tünde\git1\sapi_02_tt\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -63,8 +63,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ro.sapientia.mesteri2015.SCRUMStatusTitleTest" name="initializationError" time="0.014">
-    <error message="Duplicate step definitions in ro.sapientia.mesteri2015.test.SCRUMStatusUpdateStepDefinition.I_enter_in_the_title_textbox_and_I_push_the_update_button(String) in file:/E:/git/sapi02/target/test-classes/ and ro.sapientia.mesteri2015.test.SCRUMSprintUpdateStepDefinition.I_enter_in_the_title_textbox_and_I_push_the_update_button(String) in file:/E:/git/sapi02/target/test-classes/" type="cucumber.runtime.DuplicateStepDefinitionException">cucumber.runtime.DuplicateStepDefinitionException: Duplicate step definitions in ro.sapientia.mesteri2015.test.SCRUMStatusUpdateStepDefinition.I_enter_in_the_title_textbox_and_I_push_the_update_button(String) in file:/E:/git/sapi02/target/test-classes/ and ro.sapientia.mesteri2015.test.SCRUMSprintUpdateStepDefinition.I_enter_in_the_title_textbox_and_I_push_the_update_button(String) in file:/E:/git/sapi02/target/test-classes/
+  <testcase classname="ro.sapientia.mesteri2015.SCRUMStatusTitleTest" name="initializationError" time="0.023">
+    <error message="Duplicate step definitions in ro.sapientia.mesteri2015.test.SCRUMStatusTitleStepDefinition.I_open_the_scrum_tool_add_page() in file:/C:/Users/T%c3%bcnde/git1/sapi_02_tt/target/test-classes/ and ro.sapientia.mesteri2015.test.SCRUMTitleStepDefinition.I_open_the_scrum_tool_add_page() in file:/C:/Users/T%c3%bcnde/git1/sapi_02_tt/target/test-classes/" type="cucumber.runtime.DuplicateStepDefinitionException">cucumber.runtime.DuplicateStepDefinitionException: Duplicate step definitions in ro.sapientia.mesteri2015.test.SCRUMStatusTitleStepDefinition.I_open_the_scrum_tool_add_page() in file:/C:/Users/T%c3%bcnde/git1/sapi_02_tt/target/test-classes/ and ro.sapientia.mesteri2015.test.SCRUMTitleStepDefinition.I_open_the_scrum_tool_add_page() in file:/C:/Users/T%c3%bcnde/git1/sapi_02_tt/target/test-classes/
 	at cucumber.runtime.RuntimeGlue.addStepDefinition(RuntimeGlue.java:47)
 	at cucumber.runtime.java.JavaBackend.addStepDefinition(JavaBackend.java:92)
 	at cucumber.runtime.java.ClasspathMethodScanner.scan(ClasspathMethodScanner.java:68)
